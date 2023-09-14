@@ -1,0 +1,63 @@
+
+@font-face {
+	font-family: "SegoeUI-Regular";
+	font-style: normal;
+	font-weight: 400;
+	src: url("https://fonts.animaapp.com/SegoeUI-Regular") format("truetype");
+}
+
+.screen a {
+	display: contents;
+	text-decoration: none;
+}
+
+.main_content {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 75px;
+	min-height: 100vh;
+	width: 100%;
+}
+
+.start {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--concrete);
+	color: var(--dove-gray);
+
+	.logo {
+		width: 25em;
+		margin-bottom: 2em;
+	}
+
+	:focus {
+		outline: 0;
+	}
+}
+
+.search-wrapper {
+	position: relative;
+	width: 60vw;
+	margin-top: 36px;
+}
+
+.advanced-option-toggle {
+	text-align: end;
+
+	span {
+		cursor: pointer;
+		&:hover {
+			color: #632d9f;
+		}
+	}
+}
+
+.advanced-option-wrapper {
+	margin-top: 27px;
+}

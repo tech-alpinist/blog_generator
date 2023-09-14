@@ -1,0 +1,99 @@
+.hero-section {
+    .hero-headline {
+        color: #22263E;
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Switzer;
+        font-size: 4em;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 5.5rem;
+    }
+    .hero-text {
+        max-width: 52.25rem;
+        color: #585858;
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Switzer;
+        font-size: 1.125em;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.75rem; /* 155.556% */
+    }
+}
+
+.make_template {
+    padding: 2.5rem 5rem;
+    border: 1px dashed #10A37F;
+    border-radius: 0.5rem;
+
+    h3 {
+        color: #000;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: DM Sans;
+        font-size: 2.5rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+}
+
+.link_template_create {
+    width: 11rem;
+    height: 3rem;
+    border-radius: 0.25rem;
+    background: #10A37F;
+
+    span {
+        color: #FFF;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Archivo Black;
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%; /* 1.4rem */
+        margin-right: 1rem;
+    }
+
+    svg g path{
+        fill: #fff;
+    }
+}
+
+.link_template_edit {
+    width: 11rem;
+    height: 3rem;
+    border-radius: 0.25rem;
+    background: #10A37F;
+
+    span {
+        color: #FFF;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Archivo Black;
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%; /* 1.4rem */
+    }
+}
+
+.tempLate_list {
+
+    .template_item {
+        height: 18rem;
+        padding: 2.5rem 5rem;
+        border: 1px dashed #10A37F;
+        border-radius: 0.5rem;
+    }
+
+    .template_name {
+        color: #000;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: DM Sans;
+        font-size: 2.5rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-bottom: 3.4rem;
+    }
+}

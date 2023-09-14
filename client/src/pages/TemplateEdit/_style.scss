@@ -1,0 +1,181 @@
+.hero-section {
+    .hero-headline {
+        color: #22263E;
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Switzer;
+        font-size: 4em;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 5.5rem;
+    }
+    .hero-text {
+        max-width: 52.25rem;
+        color: #585858;
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Switzer;
+        font-size: 1.125em;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.75rem; /* 155.556% */
+    }
+}
+
+.save_template {
+    padding: 2.5rem 5rem;
+    border: 1px dashed #10A37F;
+    border-radius: 0.5rem;
+
+    .template_name {
+        color: #000;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: DM Sans;
+        font-size: 2.5rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+
+        &:focus {
+            outline: none;
+            border-bottom: 1px solid black;
+        }
+    }
+}
+
+.btn_template_save {
+    width: 11rem;
+    height: 3rem;
+    border-radius: 0.25rem;
+    background: #10A37F;
+
+    span {
+        color: #FFF;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Archivo Black;
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%; /* 1.4rem */
+    }
+}
+
+.template_generate {
+    background-color: #23263C;
+    padding: 3.2rem 7.5rem;
+    border-radius: 0.5rem;
+
+    h3 {
+        color: #FFF;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: DM Sans;
+        font-size: 2.5rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 11rem;
+        height: 3rem;
+    }
+
+    .btn_prompt {
+        border-radius: 0.25rem;
+        background: #10A37F;
+
+        span {
+            color: #fff;
+            font-feature-settings: 'clig' off, 'liga' off;
+            font-family: Archivo Black;
+            font-size: 0.875rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 160%; /* 1.4rem */
+            margin-left: 1rem;
+        }
+
+        svg g path {
+            fill: #fff;
+        }
+    }
+
+    .btn_chapter {
+        border-radius: 0.25rem;
+        border: 1px solid #E0755A;
+
+        span {
+            color: #E0755A;
+            font-feature-settings: 'clig' off, 'liga' off;
+            font-family: Archivo Black;
+            font-size: 0.875rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 160%; /* 1.4rem */
+            margin-right: 1rem;
+        }
+    }
+}
+
+.btn_save_template {
+    height: 4.125rem;
+    border-radius: 0.25rem;
+    background: #E0755A;
+
+    span {
+        color: #FFF;
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Archivo;
+        font-size: 1.25rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%; /* 2rem */
+    }
+}
+
+.main_prompt {
+    h4 {
+        color: #000;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Archivo;
+        font-size: 1.25rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 160%; /* 2rem */
+    }
+
+    .input-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 0.25rem;
+        background: #f4f4f4;
+        flex-shrink: 0;
+        
+        textarea {
+            background-color: transparent;
+            height: 12.1875rem;
+            min-height: 8rem;
+            max-height: 15rem;
+            font-feature-settings: 'clig' off, 'liga' off;
+            font-family: Archivo;
+            font-size: 1.25rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 160%; /* 2rem */
+    
+            resize: none; /* Disable the default resize handler */
+            background-image: url('/assets/svg/resize.svg'); /* Add the custom SVG as a background image */
+            background-repeat: no-repeat;
+            background-position: right bottom;
+      
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+}

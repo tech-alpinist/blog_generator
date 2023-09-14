@@ -1,0 +1,36 @@
+.collection_item {
+    height: 25.8125rem;
+    background-color: #23263c;
+
+    .category {
+        color: #b6b7bf;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Archivo;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%; /* 2rem */
+    }
+
+    .title {
+        color: #e0755a;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Inter;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .type {
+        color: #b6b7bf;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Archivo;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%; /* 2rem */
+    }
+
+    .logo {
+        height: 3.5rem;
+    }
+}

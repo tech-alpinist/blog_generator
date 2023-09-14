@@ -1,0 +1,152 @@
+.collection {
+    width: 15.9375rem;
+    height: 25.8125rem;
+    background-color: #23263c;
+
+    .category {
+        color: #b6b7bf;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Archivo;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%; /* 2rem */
+    }
+
+    .title {
+        color: #e0755a;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Inter;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .type {
+        color: #b6b7bf;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Archivo;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%; /* 2rem */
+    }
+
+    .logo {
+        height: 3.5rem;
+    }
+}
+
+.collection_info {
+    max-width: 36rem;
+
+    h2 {
+        color: #000;
+        font-family: Inter;
+        font-size: 2.5rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .category {
+        width: 16rem;
+        height: 3rem;
+        flex-shrink: 0;
+        background-color: #fafafa;
+
+        span {
+            color: #1C1C1C;
+            font-feature-settings: 'clig' off, 'liga' off;
+            font-family: Archivo;
+            font-size: 0.875rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 160%; /* 1.4rem */
+        }
+        
+    }
+
+    .type {
+        width: 16rem;
+        height: 3rem;
+        flex-shrink: 0;
+        background-color: #e9e9eb;
+
+        span {
+            color: #1C1C1C;
+            font-feature-settings: 'clig' off, 'liga' off;
+            font-family: Archivo;
+            font-size: 0.875rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 160%; /* 1.4rem */
+        }
+    }
+
+    .description {
+        color: #344858;
+        font-family: Inter;
+        font-size: 1.25rem;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+
+    .btn_download {
+        border-radius: 0.25rem;
+        background: #E0755A;
+        height: 3.0625rem;
+
+        span {
+            color: #fff;
+            text-align: center;
+            font-feature-settings: 'clig' off, 'liga' off;
+            font-family: Archivo;
+            font-size: 1.25rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 160%; /* 2rem */
+        }
+
+        img {
+            height: 2rem;
+        }
+    }
+}
+
+.listing_info {
+    .tabs {
+        color: #000;
+        font-family: Inter;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    .content {
+        color: #344858;
+        font-family: Proxima Nova;
+        font-size: 1.25rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+}
+
+.react-tabs__tab {
+    border: 2px solid transparent;
+    background: transparent;
+    border-radius: 0;
+    padding: 0;
+
+    span {
+        padding: 6px 12px;
+    }
+}
+
+.react-tabs__tab--selected {
+
+    span {
+        border-bottom: 2px solid #E0755A;
+    }
+}

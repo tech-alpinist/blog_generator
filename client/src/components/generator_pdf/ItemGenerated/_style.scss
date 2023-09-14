@@ -1,0 +1,28 @@
+.template_name {
+    color: #a4a4a4;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Archivo;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 2rem */
+}
+
+.created_date {
+    color: #BDC0CC;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 2rem */
+}
+
+.publish_switch {
+    vertical-align: middle;
+    margin-left: 4px;
+}
+
+.language_flag img {
+    width: 3.875rem;
+}

@@ -1,0 +1,23 @@
+.chapter-input-wrapper {
+    border-bottom: 2px solid transparent;
+    
+    input {
+        color: #1E252B;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Archivo Black;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%; /* 1.3rem */
+        width: 100%;
+        
+        &:focus {
+            outline: none;
+        }
+    }
+
+    &:has(input:focus) {
+        border-bottom: 2px solid #e0755a;
+    }
+   
+}

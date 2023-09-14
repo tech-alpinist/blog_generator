@@ -1,0 +1,73 @@
+.template-generate {
+    h3 {
+        color: #000;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: DM Sans;
+        font-size: 2.5rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    button {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1em;
+        justify-content: center;
+        align-items: center;
+        width: 11rem;
+        height: 3rem;
+        flex-shrink: 0;
+
+        span {
+            font-feature-settings: 'clig' off, 'liga' off;
+            /* Lead/L4 ----------- 1.4rem */
+            font-family: Archivo Black;
+            font-size: 0.875rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 160%; /* 1.4rem */
+        }
+    }
+
+    .btn_prompt {
+        color: #fff;
+        background-color: #10A37F;
+
+        svg g path{
+            fill: #fff;
+        }
+    }
+
+    .btn_chapter {
+        color: #E0755A;
+        background-color: #fff;
+        border: 1px solid #E0755A;
+    }
+}
+
+.btn_generate_pdf {
+    height: 4.125rem;
+    border-radius: 0.25rem;
+    background: #E0755A;
+}
+
+.pdf_list {
+    h3 {
+        color: #000;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: DM Sans;
+        font-size: 2.5rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .pdf_item {
+        width: auto;
+        border: 1px solid #000;
+    }
+
+    .list {
+        min-height: 8rem;
+    }
+}

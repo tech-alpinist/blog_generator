@@ -1,0 +1,177 @@
+.basic-prompt-section {
+    h3 {
+        color: var(--colors-black-100, #000);
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: DM Sans;
+        font-size: 2.5rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-bottom: 1.8rem;
+    }
+}
+
+.atom-filled {
+    display: flex;
+    width: 3.375rem;
+    height: 3.375rem;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    border-radius: 6.25rem;
+    background: #E0755A;
+    
+    span {
+        color: #fff;
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Archivo;
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%; /* 1.4rem */
+    }
+}
+
+.prompt {
+    h4 {
+        color: #000;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Archivo;
+        font-size: 1.25rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 160%; /* 2rem */
+        margin-bottom: 0.5rem;
+    }
+    .input-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 0.25rem;
+        background: #f4f4f4;
+        flex-shrink: 0;
+    
+        input {
+            background-color: transparent;
+            font-feature-settings: 'clig' off, 'liga' off;
+            font-family: Archivo;
+            font-size: 1.25rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 160%; /* 2rem */
+    
+            &:focus {
+                outline: none;
+            }
+        }
+    
+        textarea {
+            background-color: transparent;
+            height: 12.1875rem;
+            min-height: 8rem;
+            max-height: 15rem;
+            font-feature-settings: 'clig' off, 'liga' off;
+            font-family: Archivo;
+            font-size: 1.25rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 160%; /* 2rem */
+    
+            resize: none; /* Disable the default resize handler */
+            background-image: url('/assets/svg/resize.svg'); /* Add the custom SVG as a background image */
+            background-repeat: no-repeat;
+            background-position: right bottom;
+      
+            &:focus {
+                outline: none;
+            }
+    
+            // &:after {
+            //     content: ""; /* Add an empty content */
+            //     position: absolute;
+            //     top: 0;
+            //     right: 0;
+            //     bottom: 0;
+            //     width: 20px; /* Set the width of the custom resize handler */
+            //     background-color: #ccc; /* Set the background color */
+            //     cursor: ew-resize; /* Set the cursor */
+            // }
+        }
+    
+        select {
+            color: #9ca3be;
+            background-color: transparent;
+            font-feature-settings: 'clig' off, 'liga' off;
+            font-family: Archivo;
+            font-size: 1.25rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 160%; /* 2rem */
+    
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+}
+
+.language-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    border-radius: 0.25rem;
+    border: 1px solid #1c1c1c;
+
+    select {
+        background-color: transparent;
+
+        &:focus {
+            outline: none;
+        }
+    }
+}
+
+.btn_generate_basic_info {
+    height: 4.125rem;
+    border-radius: 0.25rem;
+    background: #E0755A;
+}
+
+.lang_flag {
+    width: 2.875rem;
+    margin-right: 1rem;
+}
+
+.lang_text {
+    color: #9ca3be;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Archivo;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%; /* 1.4rem */
+}
+
+.btn_gpt_title.generating {
+    cursor: wait;
+
+    img {
+        mix-blend-mode: exclusion;
+    }
+}
+.btn_gpt_description.generating {
+    cursor: wait;
+
+    img {
+        mix-blend-mode: exclusion;
+    }
+}
+.btn_gpt_listing.generating {
+    cursor: wait;
+
+    img {
+        mix-blend-mode: exclusion;
+    }
+}

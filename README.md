@@ -18,7 +18,7 @@ Generate the audio: Click the "Generate Audio" button to create an audio version
 The app is web-based, so there is no need to install any software. Simply visit the app's website and start generating content right away.
 
 ## Credits
-The app uses advanced AI models and technologies developed by leading research labs such as OpenAI and Google. The app was created by [Your Name], with the goal of making it easy for anyone to create high-quality content using AI-powered tools.
+The app uses advanced AI models and technologies developed by leading research labs such as OpenAI and Google. The app was created by Alpinist [https://github.com/tech-alpinist], with the goal of making it easy for anyone to create high-quality content using AI-powered tools.
 
 ## License
 The app is free to use for personal and commercial purposes, but attribution is required. Please credit the app and its creators in any blog posts or other content generated using the app.
